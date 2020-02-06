@@ -5,4 +5,9 @@ switch ($_GET['page']) {
         include("controllers/index.php");
         $index->index();
         break;
+
+    case 'decode':
+        include("controllers/index.php");
+        $index->decode();
+        break;
 }
